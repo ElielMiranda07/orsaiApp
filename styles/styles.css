@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FUENTES */
+
+.atkinson-hyperlegible-regular {
+  font-family: "Atkinson Hyperlegible", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.atkinson-hyperlegible-bold {
+  font-family: "Atkinson Hyperlegible", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.atkinson-hyperlegible-regular-italic {
+  font-family: "Atkinson Hyperlegible", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.atkinson-hyperlegible-bold-italic {
+  font-family: "Atkinson Hyperlegible", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.escudos {
+  height: 30px;
+  width: auto;
+  object-fit: contain;
+  margin: 0 5px;
+}
+
+.bg-custom {
+  background-color: #007a2d;
+}
+
+.tituloOrsai {
+  text-decoration: none;
+  color: white;
+}
+
+.tituloOrsai:hover {
+  color: #26c962;
+}
+
+.tituloHistoriales {
+  text-decoration: none;
+  color: white;
+}
+
+.tituloHistoriales:hover {
+  color: #26c962;
+}
+
+body {
+  background-color: #1c800f;
+}
+
+main h2 {
+  font-family: "Atkinson Hyperlegible", serif;
+  font-weight: 400;
+}
+
+main div {
+  font-family: "Atkinson Hyperlegible", serif;
+}
+
+.section1 {
+  display: block;
+  height: auto;
+  overflow: hidden;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.fechaYBotones {
+  height: 15vh;
+}
+
+aside li label {
+  height: 3vh;
+}
+
+.accordion-button {
+  background-color: #007a2d;
+  color: white;
+  font-weight: bold;
+  height: 3.2vh;
+}
+
+.accordion-button:hover {
+  background-color: #015e23;
+  color: #f8f9fa;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #015e23;
+  color: white;
+}
+
+.accordion-body {
+  background-color: #007a2d;
+  color: #333;
+  font-size: 16px;
+}
+
+#acordeonesPartidos li {
+  height: 3.4vh;
+}
+
+.accordion-item {
+  border: 1px solid #015e23;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.list-group-item {
+  background-color: #015e23;
+  color: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.list-group-item:last-child {
+  border-bottom: none;
+}
+
+.cuotas {
+  background-color: #1c800f;
+}
+
+.cuota {
+  cursor: pointer;
+}
+
+.seleccionado {
+  color: black;
+  background-color: white;
+}
+
+.ventanaResultados {
+  display: flex;
+  position: fixed;
+  bottom: 10px;
+  left: 37.5%;
+  width: 25%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.partido {
+  cursor: pointer;
+}
+
+.ligas {
+  cursor: pointer;
+}

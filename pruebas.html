@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="row col-12 col-sm-9 justify-content-center">
+      <div>
+        <div
+          class="accordion my-3"
+          id="acordeon-liga-${ligaID}"
+          style="display: none"
+        >
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#liga-${ligaID}"
+                aria-expanded="true"
+                aria-controls="liga-${ligaID}"
+              >
+                <img
+                  src="./media/ligaProfesionalArgentina.png"
+                  alt="${liga.name}"
+                  class="escudos"
+                />
+                Liga Profesional Argentina
+              </button>
+            </h2>
+            <div
+              id="liga-${ligaID}"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordion${ligaID}"
+            >
+              <div class="accordion-body">
+                <ul class="list-group list-group-flush" id="partidos-${ligaID}">
+                  <li class="list-group-item d-flex flex-row">
+                    <div
+                      class="col-1 d-flex justify-content-center align-items-center"
+                    >
+                      <img src="./media/espn.png" alt="" class="escudos" />
+                      15:00
+                    </div>
+                    <div class="col-11 d-flex align-items-center">
+                      <div
+                        class="col-4 d-flex flex-row-reverse align-items-center"
+                      >
+                        <img src="./media/boca.png" alt="" class="escudos" />
+                        Boca Juniors
+                      </div>
+                      <div class="col-1 d-flex justify-content-center">
+                        <div>4</div>
+                      </div>
+                      <div class="col-2 mx-1 d-flex justify-content-center">
+                        <div>-</div>
+                      </div>
+                      <div class="col-1 d-flex justify-content-center">
+                        <div>0</div>
+                      </div>
+                      <div class="col-4 d-flex flex-row align-items-center">
+                        <img src="./media/riber.png" alt="" class="escudos" />
+                        Riber Plate
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

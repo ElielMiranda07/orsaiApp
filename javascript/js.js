@@ -134,7 +134,7 @@ function obtenerLigasSeleccionadas() {
 }
 
 // URL del proxy en Vercel
-const PROXY_URL = "https://vercel-proxy-woad-one.vercel.app/";
+const PROXY_URL = "https://vercel-proxy-woad-one.vercel.app/api/proxy";
 
 // Función para obtener los resultados en vivo desde el proxy
 const obtenerResultadosEnVivo = async () => {
